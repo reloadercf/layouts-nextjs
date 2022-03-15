@@ -16,7 +16,7 @@ const Algo = () => {
   )
 }
 
-Algo.getLayout = function getLayout(page) {
+Algo.getLayout = function getLayout(page: JSX.Element) {
   return (
     <MainLayout>
       <DarkLayout>
